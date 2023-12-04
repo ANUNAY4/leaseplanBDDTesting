@@ -38,7 +38,7 @@ For building this project it is necessary to install the following:
 ## Set up and running tests
 
 ```
-   $ https://github.com/ANUNAY4/leaseplanBDDTesting.git)
+   $ https://github.com/ANUNAY4/leaseplanBDDTesting.git
    $ mvn clean verify
 ```
 Also test run can be customized to use specific tests, for example
@@ -71,8 +71,7 @@ After executing report will be available in build directory and can be opened th
 - Added .gitignore file with set of rules to ensure that certain files not tracked by Git remain untracked
 
 ## CI/CD
-
-https://gitlab.com/yu.dyagilev/waarkooptestproject/-/pipelines
+https://gitlab.com/ANUNAY04SINGH/leaseplanBDDTesting
 
 In order to automate CI/CD process, was created .gitlab-ci.yml file which is located in the project root.
 Gitlab pipeline is running per every 'push' git command into the branch and then builds and run appropriate API tests.
